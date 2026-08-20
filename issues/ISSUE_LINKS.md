@@ -4,7 +4,7 @@ Repo: https://github.com/Nidhikhare12/OsdagBridge/issues
 
 All bugs below were filed or reopened after checking for duplicates.
 
-| Draft | Live issue | URL |
+| Bugs | Live issue | URL |
 |-------|------------|-----|
 | `BUG_osi_custom_material_map_not_restored.md` | #19 OSI custom material map not restored | https://github.com/Nidhikhare12/OsdagBridge/issues/19 |
 | `BUG_custom_steel_density_ignored.md` | #20 Custom steel density ignored | https://github.com/Nidhikhare12/OsdagBridge/issues/20 |
@@ -16,4 +16,4 @@ All bugs below were filed or reopened after checking for duplicates.
 
 **Notes**
 - #19 and #20 existed earlier; they were reopened with fresh evidence (not refiled as duplicates).
-- #44 title was corrected to the fatigue bug (body was always about fatigue).
+

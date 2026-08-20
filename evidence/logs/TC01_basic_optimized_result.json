@@ -1,0 +1,16 @@
+{
+  "case_id": "TC01_basic_optimized",
+  "notes": "Basic optimized geometry span=30 m, CW=7.5 m, DB default materials (E 350A / M40)",
+  "status": "FAIL",
+  "errors": [
+    "Gs (shear modulus) is not set for grade 'E 350A'. Populate it in the material database before running the design check."
+  ],
+  "warnings": [],
+  "checks": {
+    "input_dict_mismatches": []
+  },
+  "started_at": "20260819T123943Z",
+  "osi_file": "osi_files\\TC01_basic_optimized.osi",
+  "traceback": "Traceback (most recent call last):\n  File \"scripts\\run_plate_girder_tests.py\", line 418, in run_case\n    bridge.design()\n  File \"osdagbridge/src\\osdagbridge\\core\\bridge_types\\plate_girder\\plategirderbridge.py\", line 757, in design\n    self._run_stage(\"5\", self._run_dcr_checks, dataset)\n  File \"osdagbridge/src\\osdagbridge\\core\\bridge_types\\plate_girder\\plategirderbridge.py\", line 595, in _run_stage\n    result = func(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"osdagbridge/src\\osdagbridge\\core\\bridge_types\\plate_girder\\plategirderbridge.py\", line 2297, in _run_dcr_checks\n    _, engine, design_results = run_design_check(\n                                ^^^^^^^^^^^^^^^^^\n  File \"osdagbridge/src\\osdagbridge\\core\\bridge_types\\plate_girder\\designer.py\", line 3235, in run_design_check\n    config = BridgeConfig.from_plate_girder_bridge(plate_girder_bridge)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"osdagbridge/src\\osdagbridge\\core\\bridge_types\\plate_girder\\designer.py\", line 311, in from_plate_girder_bridge\n    raise ValueError(\nValueError: Gs (shear modulus) is not set for grade 'E 350A'. Populate it in the material database before running the design check.\n",
+  "finished_at": "20260819T124144Z"
+}

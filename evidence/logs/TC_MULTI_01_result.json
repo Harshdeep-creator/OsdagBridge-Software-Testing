@@ -1,0 +1,68 @@
+{
+  "case_id": "TC_MULTI_01",
+  "runs": [
+    {
+      "run": 1,
+      "span": 25.0,
+      "cw": 7.5,
+      "skew": 0.0,
+      "output_span": 25.0,
+      "output_cw": 7.5,
+      "output_skew": 0.0,
+      "stale_span_detected": false,
+      "span_matches": true,
+      "cw_matches": true,
+      "cad_ok": true,
+      "cad_span_mm": 25000.0,
+      "cad_stale": false
+    },
+    {
+      "run": 2,
+      "span": 30.0,
+      "cw": 8.5,
+      "skew": 5.0,
+      "after_reset_output_empty": true,
+      "output_span": 30.0,
+      "output_cw": 8.5,
+      "output_skew": 5.0,
+      "stale_span_detected": false,
+      "span_matches": true,
+      "cw_matches": true,
+      "cad_ok": true,
+      "cad_span_mm": 30000.0,
+      "cad_stale": false
+    },
+    {
+      "run": 3,
+      "span": 35.0,
+      "cw": 9.5,
+      "skew": 10.0,
+      "after_reset_output_empty": true,
+      "output_span": 35.0,
+      "output_cw": 9.5,
+      "output_skew": 10.0,
+      "stale_span_detected": false,
+      "span_matches": true,
+      "cw_matches": true,
+      "cad_ok": true,
+      "cad_span_mm": 35000.0,
+      "cad_stale": false,
+      "plots": {
+        "ok": true,
+        "files": {
+          "grillage": "screenshots\\TC_MULTI_01_run3_plot_grillage.png",
+          "plot_bmd": "screenshots\\TC_MULTI_01_run3_plot_bmd.png",
+          "plot_sfd": "screenshots\\TC_MULTI_01_run3_plot_sfd.png",
+          "plot_defl": "screenshots\\TC_MULTI_01_run3_plot_defl.png"
+        },
+        "errors": []
+      }
+    }
+  ],
+  "status": "PASS",
+  "started_at": "20260819T130529Z",
+  "notes": "GUI Unlock == backend.reset()",
+  "stale_data_found": false,
+  "mismatch_runs": [],
+  "finished_at": "20260819T131449Z"
+}

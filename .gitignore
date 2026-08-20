@@ -1,0 +1,7 @@
+﻿__pycache__/
+*.pyc
+.pytest_cache/
+.pydeps_video/
+Thumbs.db
+.DS_Store
+*.gif

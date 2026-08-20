@@ -1,0 +1,101 @@
+{
+  "generated_at": "20260819T131449Z",
+  "total": 11,
+  "passed": 9,
+  "failed": 2,
+  "cases": [
+    {
+      "case_id": "TC01_basic_optimized",
+      "status": "FAIL",
+      "errors": [
+        "Gs (shear modulus) is not set for grade 'E 350A'. Populate it in the material database before running the design check."
+      ],
+      "warnings": []
+    },
+    {
+      "case_id": "TC02_custom_materials",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "Custom girder density ignored: UI=80.0 vs backend rho=78500.0 (expected ~80000.0 N/m3)",
+        "Custom deck density ignored: UI=26.0 kN/m3; ConcreteProperties has no density field; add_dead_loads() calls create_deck_load() without density (default 25.0 kN/m3)",
+        "Utilization > 100%: [{'util.fatigue': 157.26}]"
+      ]
+    },
+    {
+      "case_id": "TC03_skew_footpath_median",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "util.flexure/shear/fatigue are 0.0 while util.ltb is non-zero \u2014 store_design_results() writes missing category_urs as 0.0, so the dock cannot distinguish a genuine 0% check from a skipped check"
+      ]
+    },
+    {
+      "case_id": "TC04_span_min_boundary",
+      "status": "FAIL",
+      "errors": [
+        "Gs (shear modulus) is not set for grade 'E 350A'. Populate it in the material database before running the design check."
+      ],
+      "warnings": []
+    },
+    {
+      "case_id": "TC05_span_max_boundary",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "Utilization > 100%: [{'util.fatigue': 160.14}]"
+      ]
+    },
+    {
+      "case_id": "TC06_additional_inputs",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "Custom deck density ignored: UI=26.0 kN/m3; ConcreteProperties has no density field; add_dead_loads() calls create_deck_load() without density (default 25.0 kN/m3)",
+        "Utilization > 100%: [{'util.fatigue': 169.52}]"
+      ]
+    },
+    {
+      "case_id": "TC07_distinct_cb_ed_materials",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "Custom girder density ignored: UI=80.0 vs backend rho=78500.0 (expected ~80000.0 N/m3)",
+        "Distinct CB fy=250 stored but _build_material_props uses girder fy=350 only",
+        "Distinct ED fy=280 stored but _build_material_props uses girder fy=350 only",
+        "Utilization > 100%: [{'util.fatigue': 157.26}]"
+      ]
+    },
+    {
+      "case_id": "TC08_db_grade_with_gs",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "Utilization > 100%: [{'util.fatigue': 157.26}]"
+      ]
+    },
+    {
+      "case_id": "TC09_custom_section_stiffeners",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "Custom deck density ignored: UI=26.0 kN/m3; ConcreteProperties has no density field; add_dead_loads() calls create_deck_load() without density (default 25.0 kN/m3)",
+        "Utilization > 100%: [{'util.fatigue': 175.82}]"
+      ]
+    },
+    {
+      "case_id": "TC10_osi_roundtrip",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": null,
+      "warnings": [
+        "GUI-only: populate_from_dict() does not rebuild InputDock._material_custom_fields; see issues/BUG_osi_custom_material_map_not_restored.md"
+      ]
+    },
+    {
+      "case_id": "TC_MULTI_01",
+      "status": "PASS",
+      "errors": null,
+      "warnings": null
+    }
+  ]
+}

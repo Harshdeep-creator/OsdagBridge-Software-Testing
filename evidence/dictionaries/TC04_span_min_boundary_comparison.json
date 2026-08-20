@@ -1,0 +1,138 @@
+[
+  {
+    "key": "geometry.span",
+    "planned_ui": 20.0,
+    "input_dict": 20.0,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "geometry.carriageway_width",
+    "planned_ui": 6.0,
+    "input_dict": 6.0,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "geometry.skew_angle",
+    "planned_ui": 0.0,
+    "input_dict": 0.0,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "geometry.include_median",
+    "planned_ui": "No",
+    "input_dict": "No",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "geometry.footpath",
+    "planned_ui": "None",
+    "input_dict": "None",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "geometry.design_mode",
+    "planned_ui": "Optimized",
+    "input_dict": "Optimized",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "material.girder",
+    "planned_ui": "E 350A",
+    "input_dict": "E 350A",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "material.cross_bracing",
+    "planned_ui": "E 350A",
+    "input_dict": "E 350A",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "material.end_diaphragm",
+    "planned_ui": "E 350A",
+    "input_dict": "E 350A",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "material.deck",
+    "planned_ui": "M40",
+    "input_dict": "M40",
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "typical_section.deck_thickness",
+    "planned_ui": 250.0,
+    "input_dict": 250.0,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "typical_section.wearing_course.density",
+    "planned_ui": 24.0,
+    "input_dict": 24.0,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "typical_section.wearing_course.thickness",
+    "planned_ui": 50.0,
+    "input_dict": 50.0,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "design_options.deck.top_clear_cover",
+    "planned_ui": "50",
+    "input_dict": 50,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "design_options.shear_studs.diameter",
+    "planned_ui": "20",
+    "input_dict": 20,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "design_options_cont.partial_factor.yielding_and_buckling.gamma_m0",
+    "planned_ui": "1.10",
+    "input_dict": 1.1,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  },
+  {
+    "key": "loading.live_load.eccentricity",
+    "planned_ui": "1.2",
+    "input_dict": 1.2,
+    "output_dict": null,
+    "input_matches_ui": true,
+    "output_matches_ui": null
+  }
+]

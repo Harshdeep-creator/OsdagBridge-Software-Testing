@@ -1,0 +1,226 @@
+[
+  {
+    "key": "geometry.span",
+    "planned_ui": 30.0,
+    "input_dict": 30.0,
+    "output_dict": 30.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "geometry.carriageway_width",
+    "planned_ui": 7.5,
+    "input_dict": 7.5,
+    "output_dict": 7.5,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "geometry.skew_angle",
+    "planned_ui": 0.0,
+    "input_dict": 0.0,
+    "output_dict": 0.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "geometry.include_median",
+    "planned_ui": "No",
+    "input_dict": "No",
+    "output_dict": "No",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "geometry.footpath",
+    "planned_ui": "None",
+    "input_dict": "None",
+    "output_dict": "None",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "geometry.design_mode",
+    "planned_ui": "Optimized",
+    "input_dict": "Optimized",
+    "output_dict": "Optimized",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.girder",
+    "planned_ui": "custom_steel_350_490",
+    "input_dict": "custom_steel_350_490",
+    "output_dict": "custom_steel_350_490",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.cross_bracing",
+    "planned_ui": "custom_steel_350_490",
+    "input_dict": "custom_steel_350_490",
+    "output_dict": "custom_steel_350_490",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.end_diaphragm",
+    "planned_ui": "custom_steel_350_490",
+    "input_dict": "custom_steel_350_490",
+    "output_dict": "custom_steel_350_490",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.deck",
+    "planned_ui": "custom_concrete_40_3_5",
+    "input_dict": "custom_concrete_40_3_5",
+    "output_dict": "custom_concrete_40_3_5",
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.girder.fy",
+    "planned_ui": 350,
+    "input_dict": 350,
+    "output_dict": 350,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.girder.fu",
+    "planned_ui": 490,
+    "input_dict": 490,
+    "output_dict": 490,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.girder.e",
+    "planned_ui": 200.0,
+    "input_dict": 200.0,
+    "output_dict": 200.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.girder.density",
+    "planned_ui": 80.0,
+    "input_dict": 80.0,
+    "output_dict": 80.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.girder.g",
+    "planned_ui": 76.923,
+    "input_dict": 76.923,
+    "output_dict": 76.923,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.cross_bracing.fy",
+    "planned_ui": 350,
+    "input_dict": 350,
+    "output_dict": 350,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.cross_bracing.density",
+    "planned_ui": 80.0,
+    "input_dict": 80.0,
+    "output_dict": 80.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.end_diaphragm.fy",
+    "planned_ui": 350,
+    "input_dict": 350,
+    "output_dict": 350,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.end_diaphragm.density",
+    "planned_ui": 80.0,
+    "input_dict": 80.0,
+    "output_dict": 80.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.deck.fck",
+    "planned_ui": 40,
+    "input_dict": 40,
+    "output_dict": 40,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "material.deck.density",
+    "planned_ui": 26.0,
+    "input_dict": 26.0,
+    "output_dict": 26.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "typical_section.deck_thickness",
+    "planned_ui": 250.0,
+    "input_dict": 250.0,
+    "output_dict": 250.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "typical_section.wearing_course.density",
+    "planned_ui": 24.0,
+    "input_dict": 24.0,
+    "output_dict": 24.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "typical_section.wearing_course.thickness",
+    "planned_ui": 50.0,
+    "input_dict": 50.0,
+    "output_dict": 50.0,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "design_options.deck.top_clear_cover",
+    "planned_ui": "50",
+    "input_dict": 50,
+    "output_dict": 50,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "design_options.shear_studs.diameter",
+    "planned_ui": "20",
+    "input_dict": 20,
+    "output_dict": 20,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "design_options_cont.partial_factor.yielding_and_buckling.gamma_m0",
+    "planned_ui": "1.10",
+    "input_dict": 1.1,
+    "output_dict": 1.1,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  },
+  {
+    "key": "loading.live_load.eccentricity",
+    "planned_ui": "1.2",
+    "input_dict": 1.2,
+    "output_dict": 1.2,
+    "input_matches_ui": true,
+    "output_matches_ui": true
+  }
+]

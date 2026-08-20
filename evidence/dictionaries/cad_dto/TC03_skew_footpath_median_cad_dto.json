@@ -1,0 +1,167 @@
+{
+  "steel_grade": "custom_steel_300_440",
+  "concrete_grade": "custom_concrete_40_3_5",
+  "span_length_L": 28000.0,
+  "girder_section_d": 1560.0,
+  "girder_section_bf": 470.0,
+  "girder_section_bf_b": 470.0,
+  "girder_section_tf": 20.0,
+  "girder_section_tf_b": 20.0,
+  "girder_section_tw": 8.0,
+  "num_girders": 4,
+  "girder_spacing": 6462.5,
+  "skew_angle": 12.0,
+  "carriageway_width": 20000.0,
+  "deck_thickness": 250.0,
+  "footpath_config": "BOTH",
+  "footpath_width": 1500.0,
+  "railing_width": 375.0,
+  "barrier_type": "Rigid",
+  "crash_barrier_subtype": "IRC-5R",
+  "enable_median": true,
+  "median_type": "RCC Crash Barrier",
+  "rail_count": 3,
+  "railing_type": "IRC 5 RCC railing",
+  "include_intermediate_stiffeners": true,
+  "intermediate_stiffener_spacing": 2440.0,
+  "intermediate_stiffener_thickness": 10.0,
+  "intermediate_stiffener_outstand": 250.0,
+  "num_end_stiffener_pairs": 4,
+  "end_stiffener_thickness": 10.0,
+  "end_stiffener_outstand": 250.0,
+  "include_longitudinal_stiffeners": false,
+  "num_longitudinal_stiffeners": 1,
+  "longitudinal_stiffener_thickness": 8.0,
+  "longitudinal_stiffener_outstand": null,
+  "cross_bracing_spacing": 3000.0,
+  "bracing_type": "X",
+  "x_bracket_option": "BOTH",
+  "k_top_bracket": true,
+  "diagonal_section_type": "ANGLE",
+  "diagonal_section_dims": {
+    "leg_h": 100,
+    "leg_w": 50,
+    "connection_type": "LONGER_LEG"
+  },
+  "diagonal_thickness": 8.0,
+  "top_chord_section_type": "DOUBLE_CHANNEL",
+  "top_chord_section_dims": {
+    "leg_h": 80,
+    "leg_w": 40,
+    "connection_type": "LONGER_LEG"
+  },
+  "top_chord_thickness": 8.0,
+  "bottom_chord_section_type": "ANGLE",
+  "bottom_chord_section_dims": {
+    "leg_h": 80,
+    "leg_w": 40,
+    "connection_type": "LONGER_LEG"
+  },
+  "bottom_chord_thickness": 8.0,
+  "end_diaphragm_type": "Cross Bracing",
+  "end_diaphragm_spacing": 200,
+  "end_diaphragm_bracing_type": "X",
+  "end_diaphragm_diagonal_section_type": "ANGLE",
+  "end_diaphragm_diagonal_section_dims": {
+    "leg_h": 100,
+    "leg_w": 50,
+    "connection_type": "LONGER_LEG"
+  },
+  "end_diaphragm_diagonal_thickness": 8.0,
+  "end_diaphragm_top_chord_section_type": "CHANNEL",
+  "end_diaphragm_top_chord_section_dims": {
+    "leg_h": 80,
+    "leg_w": 40,
+    "connection_type": "LONGER_LEG"
+  },
+  "end_diaphragm_top_chord_thickness": 8.0,
+  "end_diaphragm_bottom_chord_section_type": "ANGLE",
+  "end_diaphragm_bottom_chord_section_dims": {
+    "leg_h": 80,
+    "leg_w": 40,
+    "connection_type": "LONGER_LEG"
+  },
+  "end_diaphragm_bottom_chord_thickness": 8.0,
+  "end_diaphragm_section": "I_SECTION",
+  "end_diaphragm_dims": {
+    "depth": 936.0,
+    "flange_width": 470.0,
+    "web_thickness": 8.0,
+    "flange_thickness": 20.0
+  },
+  "shear_stud_params": {
+    "base_diameter": 20.0,
+    "top_diameter": 30.0,
+    "base_height": 100.0,
+    "top_height": 13.34,
+    "num_per_section": 2,
+    "transverse_spacing": 100.0,
+    "pitch": 500
+  },
+  "girder_segments": [
+    {
+      "length": 28000.0,
+      "D": 1560.0,
+      "tw": 8.0,
+      "T_ft": 20.0,
+      "T_fb": 20.0,
+      "B_ft": 470.0,
+      "B_fb": 470.0
+    }
+  ],
+  "girder_segments_dict": {},
+  "stiffeners_dict": {
+    "0": {
+      "include_intermediate_stiffeners": true,
+      "intermediate_stiffener_spacing": 2440.0,
+      "intermediate_stiffener_thickness": 10.0,
+      "intermediate_stiffener_outstand": 250.0,
+      "num_end_stiffener_pairs": 4,
+      "end_stiffener_thickness": 10.0,
+      "end_stiffener_outstand": 250.0,
+      "include_longitudinal_stiffeners": false,
+      "num_longitudinal_stiffeners": 1,
+      "longitudinal_stiffener_thickness": 8.0,
+      "longitudinal_stiffener_outstand": null
+    },
+    "1": {
+      "include_intermediate_stiffeners": true,
+      "intermediate_stiffener_spacing": 2440.0,
+      "intermediate_stiffener_thickness": 10.0,
+      "intermediate_stiffener_outstand": 250.0,
+      "num_end_stiffener_pairs": 4,
+      "end_stiffener_thickness": 10.0,
+      "end_stiffener_outstand": 250.0,
+      "include_longitudinal_stiffeners": false,
+      "num_longitudinal_stiffeners": 1,
+      "longitudinal_stiffener_thickness": 8.0,
+      "longitudinal_stiffener_outstand": null
+    },
+    "2": {
+      "include_intermediate_stiffeners": true,
+      "intermediate_stiffener_spacing": 2440.0,
+      "intermediate_stiffener_thickness": 10.0,
+      "intermediate_stiffener_outstand": 250.0,
+      "num_end_stiffener_pairs": 4,
+      "end_stiffener_thickness": 10.0,
+      "end_stiffener_outstand": 250.0,
+      "include_longitudinal_stiffeners": false,
+      "num_longitudinal_stiffeners": 1,
+      "longitudinal_stiffener_thickness": 8.0,
+      "longitudinal_stiffener_outstand": null
+    },
+    "3": {
+      "include_intermediate_stiffeners": true,
+      "intermediate_stiffener_spacing": 2440.0,
+      "intermediate_stiffener_thickness": 10.0,
+      "intermediate_stiffener_outstand": 250.0,
+      "num_end_stiffener_pairs": 4,
+      "end_stiffener_thickness": 10.0,
+      "end_stiffener_outstand": 250.0,
+      "include_longitudinal_stiffeners": false,
+      "num_longitudinal_stiffeners": 1,
+      "longitudinal_stiffener_thickness": 8.0,
+      "longitudinal_stiffener_outstand": null
+    }
+  }
+}

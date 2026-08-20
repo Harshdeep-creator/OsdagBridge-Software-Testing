@@ -1,0 +1,19 @@
+{
+  "req3": "graphical_output_verification",
+  "occ_cad_pngs": 28,
+  "plot_pngs": 20,
+  "schematics": 11,
+  "cases_with_occ_iso": [
+    "TC02_custom_materials",
+    "TC03_skew_footpath_median",
+    "TC06_additional_inputs",
+    "TC09_custom_section_stiffeners",
+    "TC_MULTI_01_run1",
+    "TC_MULTI_01_run2",
+    "TC_MULTI_01_run3"
+  ],
+  "multi_run_cad_spans_mm": [25000.0, 30000.0, 35000.0],
+  "stale_cad_detected": false,
+  "checklist_doc": "test_cases/GRAPHICAL_OUTPUT_VERIFICATION.md",
+  "script": "scripts/capture_req3_graphics.py"
+}

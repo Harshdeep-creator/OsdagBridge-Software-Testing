@@ -1,0 +1,22 @@
+{
+  "case_id": "TC10_osi_roundtrip",
+  "notes": "API OSI round-trip: yaml dump \u2192 new PlateGirderBridge.set_input \u2192 design",
+  "status": "PASS_WITH_WARNINGS",
+  "errors": [],
+  "warnings": [
+    "GUI-only: populate_from_dict() does not rebuild InputDock._material_custom_fields; see issues/BUG_osi_custom_material_map_not_restored.md"
+  ],
+  "checks": {
+    "osi_file": "osi_files\\TC10_osi_roundtrip.osi",
+    "grade_after_load": "custom_steel_350_490",
+    "fy_after_load": 350,
+    "density_after_load": 80.0,
+    "span_after_load": 30.0,
+    "keys_lost_on_load": [],
+    "output_span": 30.0,
+    "output_key_count": 1118,
+    "cad_ok": true
+  },
+  "started_at": "20260819T130320Z",
+  "finished_at": "20260819T130529Z"
+}

@@ -1,0 +1,93 @@
+{
+  "case_id": "TC08_db_grade_with_gs",
+  "notes": "DB E 350A / M40 with GUI-equivalent Gs + deck fck/fctm/Ecm primed from SQLite",
+  "status": "PASS_WITH_WARNINGS",
+  "errors": [],
+  "warnings": [
+    "Utilization > 100%: [{'util.fatigue': 157.26}]"
+  ],
+  "checks": {
+    "input_dict_mismatches": [],
+    "custom_steel_density": {
+      "ui_input_density": null,
+      "backend_rho": 78500.0,
+      "steel_grade": "E 350A",
+      "fy_ui": null,
+      "fy_backend": 350000000.0,
+      "cb_ui_density": null,
+      "ed_ui_density": null,
+      "cb_ui_fy": null,
+      "ed_ui_fy": null,
+      "deck_ui_density": null,
+      "concrete_prop_fields": [
+        "grade",
+        "fck",
+        "fctm",
+        "Ecm"
+      ]
+    },
+    "cad_params_generated": true,
+    "cad_type": "BridgeParametersDTO",
+    "cad_span_mm": 30000.0,
+    "cad_num_girders": 4,
+    "cad_deck_thickness": 250.0,
+    "cad_skew": 0.0,
+    "plots": {
+      "ok": true,
+      "files": {
+        "grillage": "screenshots\\TC08_db_grade_with_gs_plot_grillage.png",
+        "plot_bmd": "screenshots\\TC08_db_grade_with_gs_plot_bmd.png",
+        "plot_sfd": "screenshots\\TC08_db_grade_with_gs_plot_sfd.png",
+        "plot_defl": "screenshots\\TC08_db_grade_with_gs_plot_defl.png"
+      },
+      "errors": [],
+      "node_count": 126,
+      "member_count": 225
+    },
+    "coverage": {
+      "counts": {
+        "girder_steel_design": 172,
+        "stiffeners": 148,
+        "shear_connectors": 30,
+        "deck": 112,
+        "utilization": 16,
+        "cross_bracing_input_echo": 172,
+        "end_diaphragm_input_echo": 582,
+        "typical_section": 60
+      },
+      "missing_util": [],
+      "missing_steel_dock": [],
+      "missing_deck_report": [],
+      "util_values": {
+        "util.flexure": 19.509999999999998,
+        "util.shear": 39.910000000000004,
+        "util.interaction": 19.66,
+        "util.ltb": 22.81,
+        "util.long_trans_shear": 19.82,
+        "util.fatigue": 157.26,
+        "util.stress_limitation": 24.87,
+        "util.deflection_crack": 45.78
+      },
+      "util_over_100": [
+        {
+          "util.fatigue": 157.26
+        }
+      ]
+    },
+    "span_in_output": 30.0,
+    "cw_in_output": 7.5,
+    "output_key_count": 1098,
+    "additional_echo": {
+      "deck_thickness_out": 250.0,
+      "wc_density_out": 24.0,
+      "wc_thickness_out": 50.0,
+      "stud_dia_out": 20.0,
+      "stud_dia_in": "20",
+      "cover_in": "50",
+      "gamma_m0_in": "1.10"
+    }
+  },
+  "started_at": "20260819T125917Z",
+  "osi_file": "osi_files\\TC08_db_grade_with_gs.osi",
+  "finished_at": "20260819T130114Z"
+}

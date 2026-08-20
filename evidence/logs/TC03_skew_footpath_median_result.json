@@ -1,0 +1,83 @@
+{
+  "case_id": "TC03_skew_footpath_median",
+  "notes": "Skew 12\u00b0, footpath both, median yes, custom steel fy=300",
+  "status": "PASS_WITH_WARNINGS",
+  "errors": [],
+  "warnings": [
+    "util.flexure/shear/fatigue are 0.0 while util.ltb is non-zero \u2014 store_design_results() writes missing category_urs as 0.0, so the dock cannot distinguish a genuine 0% check from a skipped check"
+  ],
+  "checks": {
+    "input_dict_mismatches": [],
+    "custom_steel_density": {
+      "ui_input_density": 78.5,
+      "backend_rho": 78500.0,
+      "steel_grade": "custom_steel_300_440",
+      "fy_ui": 300,
+      "fy_backend": 300000000.0,
+      "cb_ui_density": 78.5,
+      "ed_ui_density": 78.5,
+      "cb_ui_fy": 300,
+      "ed_ui_fy": 300,
+      "deck_ui_density": 25.0,
+      "concrete_prop_fields": [
+        "grade",
+        "fck",
+        "fctm",
+        "Ecm"
+      ]
+    },
+    "custom_deck_density": {
+      "ui_density": 25.0,
+      "concrete_prop_has_density": false,
+      "dead_load_uses_default": 25.0,
+      "add_dead_loads_passes_density": false
+    },
+    "cad_params_generated": true,
+    "cad_type": "BridgeParametersDTO",
+    "cad_span_mm": 28000.0,
+    "cad_num_girders": 4,
+    "cad_deck_thickness": 250.0,
+    "cad_skew": 12.0,
+    "coverage": {
+      "counts": {
+        "girder_steel_design": 156,
+        "stiffeners": 148,
+        "shear_connectors": 30,
+        "deck": 112,
+        "utilization": 16,
+        "cross_bracing_input_echo": 96,
+        "end_diaphragm_input_echo": 596,
+        "typical_section": 60
+      },
+      "missing_util": [],
+      "missing_steel_dock": [],
+      "missing_deck_report": [],
+      "util_values": {
+        "util.flexure": 0.0,
+        "util.shear": 0.0,
+        "util.interaction": 0.0,
+        "util.ltb": 20.44,
+        "util.long_trans_shear": 23.89,
+        "util.fatigue": 0.0,
+        "util.stress_limitation": 0.0,
+        "util.deflection_crack": 0.0
+      },
+      "util_over_100": []
+    },
+    "span_in_output": 28.0,
+    "cw_in_output": 10.0,
+    "output_key_count": 1065,
+    "additional_echo": {
+      "deck_thickness_out": 250.0,
+      "wc_density_out": 24.0,
+      "wc_thickness_out": 50.0,
+      "stud_dia_out": 20.0,
+      "stud_dia_in": "20",
+      "cover_in": "50",
+      "gamma_m0_in": "1.10"
+    }
+  },
+  "started_at": "20260819T124454Z",
+  "osi_file": "osi_files\\TC03_skew_footpath_median.osi",
+  "finished_at": "20260819T124848Z"
+}

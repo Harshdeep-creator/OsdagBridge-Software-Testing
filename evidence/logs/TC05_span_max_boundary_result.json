@@ -1,0 +1,87 @@
+{
+  "case_id": "TC05_span_max_boundary",
+  "notes": "Maximum span 45 m, CW=12 m, custom materials",
+  "status": "PASS_WITH_WARNINGS",
+  "errors": [],
+  "warnings": [
+    "Utilization > 100%: [{'util.fatigue': 160.14}]"
+  ],
+  "checks": {
+    "input_dict_mismatches": [],
+    "custom_steel_density": {
+      "ui_input_density": 78.5,
+      "backend_rho": 78500.0,
+      "steel_grade": "custom_steel_350_490",
+      "fy_ui": 350.0,
+      "fy_backend": 350000000.0,
+      "cb_ui_density": 78.5,
+      "ed_ui_density": 78.5,
+      "cb_ui_fy": 350.0,
+      "ed_ui_fy": 350.0,
+      "deck_ui_density": 25.0,
+      "concrete_prop_fields": [
+        "grade",
+        "fck",
+        "fctm",
+        "Ecm"
+      ]
+    },
+    "custom_deck_density": {
+      "ui_density": 25.0,
+      "concrete_prop_has_density": false,
+      "dead_load_uses_default": 25.0,
+      "add_dead_loads_passes_density": false
+    },
+    "cad_params_generated": true,
+    "cad_type": "BridgeParametersDTO",
+    "cad_span_mm": 45000.0,
+    "cad_num_girders": 4,
+    "cad_deck_thickness": 250.0,
+    "cad_skew": 0.0,
+    "coverage": {
+      "counts": {
+        "girder_steel_design": 172,
+        "stiffeners": 148,
+        "shear_connectors": 30,
+        "deck": 112,
+        "utilization": 16,
+        "cross_bracing_input_echo": 186,
+        "end_diaphragm_input_echo": 596,
+        "typical_section": 60
+      },
+      "missing_util": [],
+      "missing_steel_dock": [],
+      "missing_deck_report": [],
+      "util_values": {
+        "util.flexure": 19.040000000000003,
+        "util.shear": 57.379999999999995,
+        "util.interaction": 19.35,
+        "util.ltb": 36.71,
+        "util.long_trans_shear": 20.29,
+        "util.fatigue": 160.14,
+        "util.stress_limitation": 26.810000000000002,
+        "util.deflection_crack": 47.92
+      },
+      "util_over_100": [
+        {
+          "util.fatigue": 160.14
+        }
+      ]
+    },
+    "span_in_output": 45.0,
+    "cw_in_output": 12.0,
+    "output_key_count": 1118,
+    "additional_echo": {
+      "deck_thickness_out": 250.0,
+      "wc_density_out": 24.0,
+      "wc_thickness_out": 50.0,
+      "stud_dia_out": 20.0,
+      "stud_dia_in": "20",
+      "cover_in": "50",
+      "gamma_m0_in": "1.10"
+    }
+  },
+  "started_at": "20260819T125004Z",
+  "osi_file": "osi_files\\TC05_span_max_boundary.osi",
+  "finished_at": "20260819T125622Z"
+}

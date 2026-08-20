@@ -1,0 +1,101 @@
+{
+  "case_id": "TC06_additional_inputs",
+  "notes": "Additional inputs: deck t=280 mm, wearing 22 kN/m3 / 80 mm, covers 40/45, stud 22x125, gamma_m0=1.15, ecc=1.5",
+  "status": "PASS_WITH_WARNINGS",
+  "errors": [],
+  "warnings": [
+    "Custom deck density ignored: UI=26.0 kN/m3; ConcreteProperties has no density field; add_dead_loads() calls create_deck_load() without density (default 25.0 kN/m3)",
+    "Utilization > 100%: [{'util.fatigue': 169.52}]"
+  ],
+  "checks": {
+    "input_dict_mismatches": [],
+    "custom_steel_density": {
+      "ui_input_density": 78.5,
+      "backend_rho": 78500.0,
+      "steel_grade": "custom_steel_350_490",
+      "fy_ui": 350,
+      "fy_backend": 350000000.0,
+      "cb_ui_density": 78.5,
+      "ed_ui_density": 78.5,
+      "cb_ui_fy": 350,
+      "ed_ui_fy": 350,
+      "deck_ui_density": 26.0,
+      "concrete_prop_fields": [
+        "grade",
+        "fck",
+        "fctm",
+        "Ecm"
+      ]
+    },
+    "custom_deck_density": {
+      "ui_density": 26.0,
+      "concrete_prop_has_density": false,
+      "dead_load_uses_default": 25.0,
+      "add_dead_loads_passes_density": false
+    },
+    "deck_density_bug_confirmed": true,
+    "cad_params_generated": true,
+    "cad_type": "BridgeParametersDTO",
+    "cad_span_mm": 30000.0,
+    "cad_num_girders": 4,
+    "cad_deck_thickness": 280.0,
+    "cad_skew": 0.0,
+    "plots": {
+      "ok": true,
+      "files": {
+        "grillage": "screenshots\\TC06_additional_inputs_plot_grillage.png",
+        "plot_bmd": "screenshots\\TC06_additional_inputs_plot_bmd.png",
+        "plot_sfd": "screenshots\\TC06_additional_inputs_plot_sfd.png",
+        "plot_defl": "screenshots\\TC06_additional_inputs_plot_defl.png"
+      },
+      "errors": [],
+      "node_count": 126,
+      "member_count": 225
+    },
+    "coverage": {
+      "counts": {
+        "girder_steel_design": 172,
+        "stiffeners": 148,
+        "shear_connectors": 30,
+        "deck": 112,
+        "utilization": 16,
+        "cross_bracing_input_echo": 186,
+        "end_diaphragm_input_echo": 596,
+        "typical_section": 60
+      },
+      "missing_util": [],
+      "missing_steel_dock": [],
+      "missing_deck_report": [],
+      "util_values": {
+        "util.flexure": 21.61,
+        "util.shear": 43.65,
+        "util.interaction": 21.78,
+        "util.ltb": 23.849999999999998,
+        "util.long_trans_shear": 18.35,
+        "util.fatigue": 169.52,
+        "util.stress_limitation": 26.88,
+        "util.deflection_crack": 46.63
+      },
+      "util_over_100": [
+        {
+          "util.fatigue": 169.52
+        }
+      ]
+    },
+    "span_in_output": 30.0,
+    "cw_in_output": 7.5,
+    "output_key_count": 1118,
+    "additional_echo": {
+      "deck_thickness_out": 280.0,
+      "wc_density_out": 22.0,
+      "wc_thickness_out": 80.0,
+      "stud_dia_out": 22.0,
+      "stud_dia_in": "22",
+      "cover_in": "40",
+      "gamma_m0_in": "1.15"
+    }
+  },
+  "started_at": "20260819T125622Z",
+  "osi_file": "osi_files\\TC06_additional_inputs.osi",
+  "finished_at": "20260819T125747Z"
+}

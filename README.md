@@ -4,11 +4,11 @@
 
 Start with **`report/OsdagBridge_Testing_Report.pdf`**.
 
-| Folder | For the evaluator |
+| Folder | Contents |
 |--------|-------------------|
 | `report/` | Formal PDF (all cases, dictionaries, CAD/plots, defects) |
 | `video/` | Silent demo: custom materials, Design, 3D CAD, Plots, Unlock, three runs |
-| `test_cases/` | Pass/fail log; UI vs dictionary tables; **graphical verification (Req 3)** |
+| `test_cases/` | Pass/fail log; UI vs dictionary tables; **CAD / plot verification** |
 | `osi_files/` | `.osi` snapshot for each case |
 | `issues/` | Bug write-ups + `ISSUE_LINKS.md` with live URLs (#19, #20, #41–#45 on Nidhikhare12/OsdagBridge) |
 | `evidence/logs/` | Per-case JSON (errors, warnings, checks) |
@@ -19,4 +19,4 @@ Start with **`report/OsdagBridge_Testing_Report.pdf`**.
 | `evidence/screenshots/gui_screencast/` | Live GUI Unlock → 3 consecutive designs + Plots dock |
 | `scripts/` | Test runner + `capture_req3_graphics.py` (OCC export) |
 
-**11 cases:** 9 passed (warnings = product defects), 2 failed on default E 350A (missing Gs). Three designs after Unlock keep CAD in sync. See `test_cases/GRAPHICAL_OUTPUT_VERIFICATION.md` for Req 3 CAD/plot evidence.
+**11 cases:** 9 passed (warnings = product defects), 2 failed on default E 350A (missing Gs). Three designs after Unlock keep CAD in sync. See `test_cases/GRAPHICAL_OUTPUT_VERIFICATION.md` for CAD and plot evidence.
